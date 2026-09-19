@@ -12,6 +12,10 @@ __pycache__/
 .mypy_cache/
 .ipynb_checkpoints/
 
+.coverage
+htmlcov/
+.tox/
+
 # Build / packaging
 build/
 dist/
@@ -20,14 +24,25 @@ dist/
 # Environment variables / secrets
 .env
 .env.*
+!.env.example
 
 # Logs
 *.log
+
+# Local Docker / Kafka data (if volumes are ever bind-mounted)
+data/
+kafka-data/
+docker-compose.override.yml
 
 # IDE / editor
 .vscode/
 .idea/
 *.swp
+*.swo
+*~
+
+# Office / PDF temp files (e.g. while Work.pdf or a .docx is open)
+~$*
 
 # OS files
 .DS_Store

@@ -1,0 +1,13 @@
+# Normalize line endings in the repo; checkout uses the OS default
+* text=auto
+
+*.py   text eol=lf
+*.avsc text eol=lf
+*.yml  text eol=lf
+*.md   text eol=lf
+*.txt  text eol=lf
+
+# Binary files
+*.pdf  binary
+*.png  binary
+*.jpg  binary
