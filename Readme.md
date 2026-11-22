@@ -136,7 +136,6 @@ Stop any script with `Ctrl+C`.
 
 ### 5. Inspect in Kafka UI
 
-Open http://localhost:8080:
 
 - **Topics → orders → Messages**: set *Value Serde* to `SchemaRegistry` to see the decoded Avro messages
 - **Topics → orders-dlq → Messages**: expand a message to see its error headers
