@@ -1,6 +1,6 @@
 # Kafka Avro Order Processing
 
-EC8203 Mini Project: a Kafka-based system that produces and consumes **order messages** serialized with **Avro**, with:
+Mini Project: a Kafka-based system that produces and consumes **order messages** serialized with **Avro**, with:
 
 - **Real-time aggregation**: a running average of order prices
 - **Retry logic** for temporary failures, with exponential backoff
